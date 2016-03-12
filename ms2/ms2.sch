@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -27777,7 +27777,7 @@ FOR OPEN-DRAIN AND PUSH-PULL APPLICATIONS</description>
 <part name="C20" library="glacsweb" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="GND10" library="glacsweb" deviceset="GND" device=""/>
 <part name="JP3" library="SparkFun-Passives" deviceset="JUMPER-2" device="SMD-NC"/>
-<part name="J13" library="farnell-parts" deviceset="5-PIN-MOLEX" device="" value="Radio"/>
+<part name="J13" library="farnell-parts" deviceset="5-PIN-MOLEX" device="" value="Radio SPI"/>
 <part name="R16" library="resistor" deviceset="R-EU_" device="R0805" value="56"/>
 <part name="LED3" library="led" deviceset="LED" device="CHIP-LED0805" value="RAIN"/>
 <part name="LED2" library="led" deviceset="LED" device="CHIP-LED0805" value="D2"/>
