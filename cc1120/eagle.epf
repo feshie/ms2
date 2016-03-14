@@ -341,6 +341,14 @@ UsedLibrary="D:/Program Files (x86)/EAGLE-6.4.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="D:/Program Files (x86)/EAGLE-6.4.0/lbr/zetex.lbr"
 UsedLibrary="D:/Program Files (x86)/EAGLE-6.4.0/lbr/zilog.lbr"
 UsedLibrary="C:/Users/Helios/Documents/University/Git/eagle-libraries/Glacsweb-Eagle-Libraries/CC11x.lbr"
+UsedLibrary="C:/Users/Helios/Documents/University/Git/eagle-libraries/Glacsweb-Eagle-Libraries/farnell-parts.lbr"
+UsedLibrary="C:/Users/Helios/Documents/University/Git/eagle-libraries/Glacsweb-Eagle-Libraries/arm-cores.lbr"
+UsedLibrary="C:/Users/Helios/Documents/University/Git/eagle-libraries/Adafruit-Eagle-Library/adafruit.lbr"
+UsedLibrary="C:/Users/Helios/Documents/University/Git/eagle-libraries/Glacsweb-Eagle-Libraries/gumsense.lbr"
+UsedLibrary="C:/Users/Helios/Documents/University/Git/eagle-libraries/Glacsweb-Eagle-Libraries/glacsweb.lbr"
+UsedLibrary="C:/Users/Helios/Documents/University/Git/eagle-libraries/Glacsweb-Eagle-Libraries/maxim.lbr"
+UsedLibrary="C:/Users/Helios/Documents/University/Git/eagle-libraries/Glacsweb-Eagle-Libraries/power.lbr"
+UsedLibrary="C:/Users/Helios/Documents/University/Git/eagle-libraries/Glacsweb-Eagle-Libraries/rc-master-smd.lbr"
 
 [Win_1]
 Type="Control Panel"
@@ -349,5 +357,5 @@ State=1
 Number=0
 
 [Desktop]
-Screen="1920 1080"
+Screen="6960 1080"
 Window="Win_1"
