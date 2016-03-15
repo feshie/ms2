@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -29538,21 +29538,19 @@ FOR OPEN-DRAIN AND PUSH-PULL APPLICATIONS</description>
 </net>
 <net name="TXEN" class="0">
 <segment>
-<pinref part="U4" gate="A" pin="~RE"/>
-<wire x1="175.26" y1="175.26" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
-<label x="160.02" y="175.26" size="1.778" layer="95"/>
-<pinref part="U4" gate="A" pin="DE"/>
-<wire x1="172.72" y1="175.26" x2="160.02" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="172.72" x2="172.72" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="172.72" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
-<junction x="172.72" y="175.26"/>
-</segment>
-<segment>
 <pinref part="U$5" gate="G$1" pin="CA0"/>
 <wire x1="38.1" y1="177.8" x2="20.32" y2="177.8" width="0.1524" layer="91"/>
 <label x="20.32" y="177.8" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="U6" gate="A" pin="~RE"/>
+<wire x1="172.72" y1="76.2" x2="170.18" y2="76.2" width="0.1524" layer="91"/>
+<label x="160.02" y="76.2" size="1.778" layer="95"/>
+<pinref part="U6" gate="A" pin="DE"/>
+<wire x1="170.18" y1="76.2" x2="160.02" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="73.66" x2="170.18" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="73.66" x2="170.18" y2="76.2" width="0.1524" layer="91"/>
+<junction x="170.18" y="76.2"/>
 <pinref part="U5" gate="A" pin="~RE"/>
 <wire x1="175.26" y1="127" x2="172.72" y2="127" width="0.1524" layer="91"/>
 <label x="160.02" y="127" size="1.778" layer="95"/>
@@ -29561,16 +29559,21 @@ FOR OPEN-DRAIN AND PUSH-PULL APPLICATIONS</description>
 <wire x1="175.26" y1="124.46" x2="172.72" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="124.46" x2="172.72" y2="127" width="0.1524" layer="91"/>
 <junction x="172.72" y="127"/>
-</segment>
-<segment>
-<pinref part="U6" gate="A" pin="~RE"/>
-<wire x1="172.72" y1="76.2" x2="170.18" y2="76.2" width="0.1524" layer="91"/>
-<label x="157.48" y="76.2" size="1.778" layer="95"/>
-<pinref part="U6" gate="A" pin="DE"/>
-<wire x1="170.18" y1="76.2" x2="157.48" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="73.66" x2="170.18" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="73.66" x2="170.18" y2="76.2" width="0.1524" layer="91"/>
-<junction x="170.18" y="76.2"/>
+<wire x1="160.02" y1="76.2" x2="160.02" y2="127" width="0.1524" layer="91"/>
+<pinref part="U4" gate="A" pin="~RE"/>
+<wire x1="175.26" y1="175.26" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
+<label x="160.02" y="175.26" size="1.778" layer="95"/>
+<pinref part="U4" gate="A" pin="DE"/>
+<wire x1="172.72" y1="175.26" x2="160.02" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="172.72" x2="172.72" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="172.72" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
+<junction x="172.72" y="175.26"/>
+<wire x1="160.02" y1="127" x2="160.02" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="175.26" x2="160.02" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="198.12" x2="149.86" y2="198.12" width="0.1524" layer="91"/>
+<junction x="160.02" y="175.26"/>
+<junction x="160.02" y="127"/>
+<label x="149.86" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIO_2" class="0">
