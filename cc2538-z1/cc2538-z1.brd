@@ -2420,8 +2420,10 @@ Covered vias can be set in Masks (Limit).
 <wire x1="20.4334" y1="21.1074" x2="21.336" y2="22.01" width="0.254" layer="1"/>
 <wire x1="21.336" y1="23.71" x2="22.137" y2="24.511" width="0.254" layer="1"/>
 <wire x1="22.137" y1="24.511" x2="22.606" y2="24.511" width="0.254" layer="1"/>
+<contactref element="H1" pad="C43"/>
 <wire x1="21.336" y1="22.01" x2="21.336" y2="23.71" width="0" layer="19" extent="1-1"/>
-<wire x1="45.986" y1="-45.1226" x2="18.6436" y2="17.2212" width="0" layer="19" extent="1-1"/>
+<wire x1="34.29" y1="5.08" x2="18.6436" y2="17.2212" width="0" layer="19" extent="1-1"/>
+<wire x1="45.986" y1="-45.1226" x2="34.29" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RADIO_GPIO3">
 <contactref element="U2" pad="3"/>
@@ -2433,7 +2435,9 @@ Covered vias can be set in Masks (Limit).
 <wire x1="18.4912" y1="21.1972" x2="19.304" y2="22.01" width="0.254" layer="1"/>
 <wire x1="19.304" y1="23.71" x2="20.613" y2="25.019" width="0.254" layer="1"/>
 <wire x1="20.613" y1="25.019" x2="22.606" y2="25.019" width="0.254" layer="1"/>
+<contactref element="H1" pad="C42"/>
 <wire x1="19.304" y1="22.01" x2="19.304" y2="23.71" width="0" layer="19" extent="1-1"/>
+<wire x1="36.83" y1="2.54" x2="18.161" y2="17.2212" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RADIO_GPIO2">
 <contactref element="U2" pad="4"/>
@@ -2488,8 +2492,10 @@ Covered vias can be set in Masks (Limit).
 <wire x1="12.065" y1="19.6088" x2="12.065" y2="17.7546" width="0.254" layer="1"/>
 <wire x1="7.1172" y1="23.7134" x2="11.4708" y2="28.067" width="0.254" layer="1"/>
 <wire x1="11.4708" y1="28.067" x2="22.606" y2="28.067" width="0.254" layer="1"/>
-<wire x1="7.1172" y1="22.0134" x2="7.1172" y2="23.7134" width="0" layer="19" extent="1-1"/>
-<wire x1="42.736" y1="-41.3726" x2="14.9352" y2="15.5194" width="0" layer="19" extent="1-1"/>
+<contactref element="H1" pad="C48"/>
+<wire x1="14.9352" y1="15.5194" x2="29.21" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="7.1172" y1="23.7134" x2="7.1172" y2="22.0134" width="0" layer="19" extent="1-1"/>
+<wire x1="42.736" y1="-41.3726" x2="29.21" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="U2" pad="31"/>
@@ -2767,10 +2773,10 @@ Covered vias can be set in Masks (Limit).
 <signal name="N$39">
 <contactref element="H1" pad="A15"/>
 </signal>
-<signal name="N$40">
+<signal name="ADC_1">
 <contactref element="H1" pad="A16"/>
 </signal>
-<signal name="N$41">
+<signal name="ADC_2">
 <contactref element="H1" pad="A9"/>
 </signal>
 <signal name="N$42">
@@ -2779,13 +2785,13 @@ Covered vias can be set in Masks (Limit).
 <signal name="N$43">
 <contactref element="H1" pad="A7"/>
 </signal>
-<signal name="N$44">
+<signal name="DIGITAL_IO_2">
 <contactref element="H1" pad="A10"/>
 </signal>
 <signal name="N$45">
 <contactref element="H1" pad="A8"/>
 </signal>
-<signal name="N$46">
+<signal name="ADC_BATVOLTS">
 <contactref element="H1" pad="A6"/>
 </signal>
 <signal name="N$47">
@@ -2797,7 +2803,7 @@ Covered vias can be set in Masks (Limit).
 <wire x1="19.05" y1="33.02" x2="31.75" y2="33.02" width="0" layer="19" extent="1-1"/>
 <wire x1="19.05" y1="30.48" x2="19.05" y2="33.02" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$48">
+<signal name="DIGITAL_IO_1">
 <contactref element="H1" pad="C51"/>
 </signal>
 <signal name="N$49">
@@ -2806,43 +2812,29 @@ Covered vias can be set in Masks (Limit).
 <signal name="N$50">
 <contactref element="H1" pad="C50"/>
 </signal>
-<signal name="N$51">
+<signal name="PWR_SENSE_EN">
 <contactref element="H1" pad="B32"/>
 </signal>
-<signal name="N$52">
+<signal name="PWR_RADIO_EN">
 <contactref element="H1" pad="B30"/>
-</signal>
-<signal name="N$53">
-<contactref element="H1" pad="C42"/>
 </signal>
 <signal name="N$54">
 <contactref element="H1" pad="C54"/>
 </signal>
-<signal name="N$55">
+<signal name="RS485_TXEN">
 <contactref element="H1" pad="C46"/>
 </signal>
 <signal name="N$56">
 <contactref element="H1" pad="C45"/>
 </signal>
-<signal name="N$57">
+<signal name="GPIO_INT_RAIN">
 <contactref element="H1" pad="C49"/>
-</signal>
-<signal name="N$58">
-<contactref element="H1" pad="C48"/>
-</signal>
-<signal name="N$59">
-<contactref element="H1" pad="C43"/>
 </signal>
 <signal name="N$60">
 <contactref element="H1" pad="C53"/>
 </signal>
 <signal name="N$61">
 <contactref element="H1" pad="C47"/>
-</signal>
-<signal name="N$62">
-<contactref element="H1" pad="B22"/>
-<contactref element="H1" pad="C40"/>
-<wire x1="39.37" y1="2.54" x2="54.61" y2="25.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$63">
 <contactref element="H1" pad="B20"/>
@@ -3016,6 +3008,10 @@ Covered vias can be set in Masks (Limit).
 <wire x1="42.736" y1="-43.8726" x2="43.6372" y2="-43.8726" width="0.254" layer="1"/>
 <wire x1="43.6372" y1="-43.8726" x2="43.6372" y2="-38.0238" width="0.254" layer="1"/>
 <wire x1="43.6372" y1="-38.0238" x2="43.986" y2="-38.0238" width="0.254" layer="1"/>
+<contactref element="H1" pad="B22"/>
+<contactref element="H1" pad="C40"/>
+<wire x1="39.37" y1="2.54" x2="54.61" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="43.986" y1="-37.1226" x2="39.37" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
