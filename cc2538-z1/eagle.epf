@@ -10,8 +10,17 @@ AutoSaveProject=1
 UsedLibrary="D:/Workspace/git/eagle-libraries/z1-Eagle-Library/z1.lbr"
 
 [Win_1]
+Type="Text Editor"
+Loc="702 271 1201 770"
+State=2
+Number=1
+File="D:/Workspace/git/CC2538-dev-board/cc2538node.brd.rpt"
+CursorPos="0 0"
+Font="Courier,11,-1,5,50,0,0,0,0,0"
+
+[Win_2]
 Type="Board Editor"
-Loc="-8 -8 591 391"
+Loc="0 0 599 399"
 State=1
 Number=2
 File="D:/Workspace/git/CC2538-dev-board/cc2538node.brd"
@@ -55,7 +64,7 @@ AddLevel=2
 PadsSameType=0
 Layer=16
 
-[Win_2]
+[Win_3]
 Type="Schematic Editor"
 Loc="652 321 1251 720"
 State=1
@@ -103,10 +112,10 @@ Layer=91
 Views=" 1: -108.546 -92.3621 265.302 186.388"
 Sheet=1
 
-[Win_3]
+[Win_4]
 Type="Control Panel"
-Loc="691 74 1290 472"
-State=1
+Loc="148 393 747 791"
+State=2
 Number=0
 
 [Desktop]
@@ -114,3 +123,4 @@ Screen="1920 1080"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
+Window="Win_4"
