@@ -10435,7 +10435,6 @@ type RDH, grid 15 mm</description>
 <part name="J2" library="farnell-parts" deviceset="2-PIN-MOLEX" device=""/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="220"/>
 <part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="4.7K"/>
 <part name="R24" library="rcl" deviceset="R-EU_" device="R0603" value="4.7K"/>
 <part name="R25" library="rcl" deviceset="R-EU_" device="R0603" value="4.7K"/>
@@ -10570,7 +10569,6 @@ type RDH, grid 15 mm</description>
 <instance part="GND9" gate="1" x="307.34" y="147.32"/>
 <instance part="X3" gate="A" x="304.8" y="165.1"/>
 <instance part="ANT" gate="A" x="378.46" y="104.14"/>
-<instance part="R7" gate="G$1" x="401.32" y="137.16" rot="R90"/>
 <instance part="U7" gate="A" x="477.52" y="220.98" smashed="yes">
 <attribute name="NAME" x="485.5972" y="231.0384" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="492.1758" y="207.2894" size="2.0828" layer="96" ratio="10" rot="SR90"/>
@@ -10882,6 +10880,11 @@ type RDH, grid 15 mm</description>
 <pinref part="U1" gate="G$1" pin="PB4"/>
 <wire x1="261.62" y1="134.62" x2="261.62" y2="157.48" width="0.1524" layer="91"/>
 <label x="261.62" y="137.16" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="H1" gate="G$1" pin="CAOUT"/>
+<wire x1="7.62" y1="86.36" x2="-22.86" y2="86.36" width="0.1524" layer="91"/>
+<label x="-22.86" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RADIO_SPI_CSN" class="0">
