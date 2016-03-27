@@ -19,3 +19,10 @@ F2		http://onecall.farnell.com/johanson-technology/2450bm15a0015e/balun-imp-matc
 H4		http://onecall.farnell.com/samtec/fts-105-01-l-d/header-1-27mm-thru-hole-10way/dp/1667728
 
 SD1		http://onecall.farnell.com/molex/503182-1853/connector-micro-sd-push-push-1/dp/2334075
+
+ANT		http://onecall.farnell.com/hirose-hrs/u-fl-r-smt-1-10/rf-coaxial-u-fl-straight-jack/dp/1688077
+
+RST		http://onecall.farnell.com/c-k-components/kmr241g-lfs/switch-smd-4n-0-05a-32vdc-spst/dp/1437637
+USR		http://onecall.farnell.com/c-k-components/kmr241g-lfs/switch-smd-4n-0-05a-32vdc-spst/dp/1437637
+
+LED		http://onecall.farnell.com/cree/clv1a-fkb-cj1m1f1bb7r4s3/led-red-grn-blu-550-850-320-mcd/dp/1855553
