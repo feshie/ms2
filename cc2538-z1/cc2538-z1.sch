@@ -9928,25 +9928,6 @@ type RDH, grid 15 mm</description>
 <text x="-2.2" y="-4" size="1.27" layer="25">&gt;VALUE</text>
 <text x="-1.27" y="-3.175" size="1.27" layer="51">*</text>
 </package>
-<package name="2-MOLEX">
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-1.778" x2="2.54" y2="-3.302" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-1.778" x2="-2.54" y2="-3.302" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-3.302" x2="2.54" y2="-3.302" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-1.778" x2="2.54" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="39"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-3.302" width="0.127" layer="39"/>
-<wire x1="2.54" y1="-3.302" x2="-2.54" y2="-3.302" width="0.127" layer="39"/>
-<wire x1="-2.54" y1="-3.302" x2="-2.54" y2="2.54" width="0.127" layer="39"/>
-<pad name="2" x="1.27" y="-0.381" drill="0.9144" shape="long" rot="R90"/>
-<pad name="1" x="-1.27" y="-0.381" drill="0.9144" shape="long" rot="R90"/>
-<text x="2.794" y="-3.556" size="1.27" layer="25" ratio="10" rot="R180">&gt;NAME</text>
-<text x="3.048" y="4.191" size="1.27" layer="27" ratio="10" rot="R180">&gt;VALUE</text>
-<rectangle x1="-1.5748" y1="-0.6858" x2="-0.9652" y2="-0.0762" layer="51" rot="R90"/>
-<rectangle x1="0.9652" y1="-0.6858" x2="1.5748" y2="-0.0762" layer="51" rot="R90"/>
-</package>
 </packages>
 <symbols>
 <symbol name="N-CHANNEL">
@@ -10024,20 +10005,6 @@ type RDH, grid 15 mm</description>
 <vertex x="1.524" y="-0.762"/>
 </polygon>
 </symbol>
-<symbol name="J2">
-<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0.635" x2="-0.635" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
-<text x="-1.27" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="1" x="0" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DMG6602SVT" prefix="Q">
@@ -10054,22 +10021,6 @@ type RDH, grid 15 mm</description>
 <connect gate="G$2" pin="D" pad="P$4"/>
 <connect gate="G$2" pin="G" pad="P$3"/>
 <connect gate="G$2" pin="S" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="2-PIN-MOLEX" prefix="J">
-<gates>
-<gate name="G$1" symbol="J2" x="0" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="2-MOLEX">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10432,7 +10383,6 @@ type RDH, grid 15 mm</description>
 <part name="R20" library="rcl" deviceset="R-EU_" device="R0603" value="220"/>
 <part name="R21" library="rcl" deviceset="R-EU_" device="R0603" value="220"/>
 <part name="R22" library="rcl" deviceset="R-EU_" device="R0603" value="220"/>
-<part name="J2" library="farnell-parts" deviceset="2-PIN-MOLEX" device=""/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="4.7K"/>
@@ -12204,8 +12154,7 @@ type RDH, grid 15 mm</description>
 <instance part="R20" gate="G$1" x="63.5" y="12.7" rot="R90"/>
 <instance part="R21" gate="G$1" x="71.12" y="12.7" rot="R90"/>
 <instance part="R22" gate="G$1" x="78.74" y="12.7" rot="R90"/>
-<instance part="J2" gate="G$1" x="68.58" y="33.02" rot="R90"/>
-<instance part="+3V10" gate="G$1" x="71.12" y="48.26"/>
+<instance part="+3V10" gate="G$1" x="71.12" y="38.1"/>
 <instance part="GND22" gate="1" x="66.04" y="-68.58"/>
 <instance part="R23" gate="G$1" x="38.1" y="-20.32"/>
 <instance part="R24" gate="G$1" x="38.1" y="-33.02"/>
@@ -12272,9 +12221,7 @@ type RDH, grid 15 mm</description>
 <pinref part="GND22" gate="1" pin="GND"/>
 <junction x="45.72" y="-33.02"/>
 <junction x="45.72" y="-45.72"/>
-<pinref part="U6" gate="A" pin="S1"/>
-<wire x1="88.9" y1="-60.96" x2="88.9" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="-63.5" x2="66.04" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="-63.5" x2="66.04" y2="-63.5" width="0.1524" layer="91"/>
 <pinref part="U5" gate="A" pin="S2"/>
 <wire x1="71.12" y1="-35.56" x2="71.12" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="U5" gate="A" pin="S1"/>
@@ -12284,6 +12231,8 @@ type RDH, grid 15 mm</description>
 <wire x1="66.04" y1="-38.1" x2="66.04" y2="-63.5" width="0.1524" layer="91"/>
 <junction x="66.04" y="-38.1"/>
 <junction x="66.04" y="-63.5"/>
+<pinref part="U6" gate="A" pin="S2"/>
+<wire x1="99.06" y1="-63.5" x2="99.06" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USER_BUTTON" class="0">
@@ -12301,14 +12250,16 @@ type RDH, grid 15 mm</description>
 </net>
 <net name="LEDS_BLUE" class="0">
 <segment>
-<wire x1="76.2" y1="-40.64" x2="30.48" y2="-40.64" width="0.1524" layer="91"/>
 <label x="17.78" y="-40.64" size="1.778" layer="95"/>
 <pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="-40.64" x2="17.78" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="-45.72" x2="30.48" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-45.72" x2="30.48" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="U6" gate="A" pin="G2"/>
+<wire x1="76.2" y1="-48.26" x2="48.26" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="-48.26" x2="48.26" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="-40.64" x2="30.48" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="30.48" y="-40.64"/>
-<pinref part="U6" gate="A" pin="G1"/>
 </segment>
 </net>
 <net name="LEDS_GREEN" class="0">
@@ -12349,15 +12300,9 @@ type RDH, grid 15 mm</description>
 <wire x1="-53.34" y1="45.72" x2="-53.34" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="2"/>
 <pinref part="LED" gate="A" pin="2"/>
-<wire x1="71.12" y1="30.48" x2="71.12" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="35.56" x2="71.12" y2="33.02" width="0.1524" layer="91"/>
-<junction x="71.12" y="33.02"/>
-<junction x="71.12" y="35.56"/>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
-<wire x1="71.12" y1="35.56" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="30.48" x2="71.12" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CC2538_NRESET" class="0">
@@ -12415,9 +12360,9 @@ type RDH, grid 15 mm</description>
 <segment>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="7.62" x2="71.12" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="U6" gate="A" pin="D1"/>
-<wire x1="71.12" y1="5.08" x2="88.9" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="5.08" x2="88.9" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="5.08" x2="99.06" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="U6" gate="A" pin="D2"/>
+<wire x1="99.06" y1="5.08" x2="99.06" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

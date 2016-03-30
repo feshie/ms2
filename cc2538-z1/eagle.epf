@@ -7,6 +7,8 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/crystal.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/pinhead.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/rcl.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/supply1.lbr"
 UsedLibrary="C:/Users/gmb1g08/Documents/Git/eagle-libraries/Glacsweb-Eagle-Libraries/CC11x.lbr"
@@ -14,11 +16,12 @@ UsedLibrary="C:/Users/gmb1g08/Documents/Git/eagle-libraries/Glacsweb-Eagle-Libra
 UsedLibrary="C:/Users/gmb1g08/Documents/Git/eagle-libraries/Glacsweb-Eagle-Libraries/basestation.lbr"
 UsedLibrary="C:/Users/gmb1g08/Documents/Git/eagle-libraries/Glacsweb-Eagle-Libraries/arm-cores.lbr"
 UsedLibrary="C:/Users/gmb1g08/Documents/Git/eagle-libraries/Glacsweb-Eagle-Libraries/power.lbr"
+UsedLibrary="C:/Users/gmb1g08/Documents/Git/eagle-libraries/Glacsweb-Eagle-Libraries/farnell-parts.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="236 253 835 652"
-State=1
+Loc="-8 -8 591 391"
+State=3
 Number=0
 
 [Desktop]
