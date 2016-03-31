@@ -3,7 +3,7 @@ U2		http://onecall.farnell.com/silicon-labs/cp2103-gm/usb-uart-bridge-smd-qfn-28
 U3		http://onecall.farnell.com/texas-instruments/tpd2e001drlr/esd-protection-array-2ch-sot-5/dp/2335444
 U4		http://onecall.farnell.com/silicon-labs/cp2103-gm/usb-uart-bridge-smd-qfn-28-2103/dp/1291538
 
-
+D1		http://onecall.farnell.com/nxp/bat754s/diode-schottky-dual/dp/SC11302
 
 L2		http://onecall.farnell.com/murata/blm18pg600sn1d/ferrite-bead-0-1ohm-500ma-0603/dp/1515746
 L3		http://onecall.farnell.com/murata/blm18pg600sn1d/ferrite-bead-0-1ohm-500ma-0603/dp/1515746
