@@ -2,6 +2,12 @@ U1
 U2		http://onecall.farnell.com/silicon-labs/cp2103-gm/usb-uart-bridge-smd-qfn-28-2103/dp/1291538
 U3		http://onecall.farnell.com/texas-instruments/tpd2e001drlr/esd-protection-array-2ch-sot-5/dp/2335444
 U4		http://onecall.farnell.com/silicon-labs/cp2103-gm/usb-uart-bridge-smd-qfn-28-2103/dp/1291538
+U5		http://onecall.farnell.com/nxp/bss138ps/mosfet-nn-ch-60v-0-32a-sot363/dp/1972664
+U6		http://onecall.farnell.com/nxp/bss138ps/mosfet-nn-ch-60v-0-32a-sot363/dp/1972664
+U7		http://onecall.farnell.com/nxp/bss138ps/mosfet-nn-ch-60v-0-32a-sot363/dp/1972664
+U8		http://onecall.farnell.com/micron/m25p16-vmn6p/memory-flash-serial-16mbit-8nsoic/dp/1734973
+U9		http://onecall.farnell.com/diodes-inc/dmg6602svt/mosfet-np-ch-30v-3-4-atsot23/dp/2061522
+U10		http://onecall.farnell.com/diodes-inc/dmg6602svt/mosfet-np-ch-30v-3-4-atsot23/dp/2061522
 
 D1		http://onecall.farnell.com/nxp/bat754s/diode-schottky-dual/dp/SC11302
 
