@@ -8,6 +8,8 @@ U7		http://onecall.farnell.com/nxp/bss138ps/mosfet-nn-ch-60v-0-32a-sot363/dp/197
 U8		http://onecall.farnell.com/micron/m25p16-vmn6p/memory-flash-serial-16mbit-8nsoic/dp/1734973
 U9		http://onecall.farnell.com/diodes-inc/dmg6602svt/mosfet-np-ch-30v-3-4-atsot23/dp/2061522
 U10		http://onecall.farnell.com/diodes-inc/dmg6602svt/mosfet-np-ch-30v-3-4-atsot23/dp/2061522
+U11		http://onecall.farnell.com/texas-instruments/sn74avc4t774pw/logic-74avc-transceiver-tssop16/dp/1630205
+U12		http://onecall.farnell.com/texas-instruments/tmp102aidrlt/ic-temperature-sensor/dp/1652477
 
 D1		http://onecall.farnell.com/nxp/bat754s/diode-schottky-dual/dp/SC11302
 
@@ -20,7 +22,6 @@ X3		http://onecall.farnell.com/abracon/abs07-32-768khz-t/crystal-32-768khz-12-5p
 
 F1		http://onecall.farnell.com/johanson-technology/0900pc15j0013e/balun-imp-matched-868-928mhz-chip/dp/2341894
 F2		http://onecall.farnell.com/johanson-technology/2450bm15a0015e/balun-imp-matched-2-4-2-5ghz-50ohm/dp/2341895		
-
 
 H4		http://onecall.farnell.com/samtec/fts-105-01-l-d/header-1-27mm-thru-hole-10way/dp/1667728
 
