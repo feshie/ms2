@@ -10489,6 +10489,7 @@ Source: www.kingbright.com</description>
 <part name="LED2" library="led" deviceset="LED" device="SML0603"/>
 <part name="R30" library="rcl" deviceset="R-EU_" device="R0603" value="1K5"/>
 <part name="R31" library="rcl" deviceset="R-EU_" device="R0603" value="1K5"/>
+<part name="C21" library="CC11x" deviceset="C_EU" device="S" technology="C0603" value="22uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -12224,6 +12225,7 @@ Source: www.kingbright.com</description>
 <instance part="+3V17" gate="G$1" x="294.64" y="231.14"/>
 <instance part="C20" gate="G$1" x="210.82" y="167.64" rot="MR0"/>
 <instance part="R10" gate="G$1" x="198.12" y="190.5" rot="R90"/>
+<instance part="C21" gate="G$1" x="195.58" y="152.4" rot="MR0"/>
 </instances>
 <busses>
 <bus name="SD_SPI_CLK,SD_SPI_MOSI,SD_SPI_MISO">
@@ -12266,8 +12268,9 @@ Source: www.kingbright.com</description>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="172.72" y1="142.24" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="139.7" x2="172.72" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="139.7" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="139.7" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="SD1" gate="G$1" pin="SWITCH"/>
+<wire x1="195.58" y1="139.7" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="167.64" x2="198.12" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="139.7" x2="198.12" y2="160.02" width="0.1524" layer="91"/>
 <junction x="172.72" y="139.7"/>
@@ -12276,6 +12279,9 @@ Source: www.kingbright.com</description>
 <wire x1="210.82" y1="162.56" x2="210.82" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="160.02" x2="198.12" y2="160.02" width="0.1524" layer="91"/>
 <junction x="198.12" y="160.02"/>
+<pinref part="C21" gate="G$1" pin="2"/>
+<wire x1="195.58" y1="147.32" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
+<junction x="195.58" y="139.7"/>
 </segment>
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
@@ -12440,8 +12446,12 @@ Source: www.kingbright.com</description>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="200.66" x2="172.72" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="195.58" x2="198.12" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="200.66" x2="172.72" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="200.66" x2="195.58" y2="200.66" width="0.1524" layer="91"/>
 <junction x="172.72" y="200.66"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="200.66" x2="172.72" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="154.94" x2="195.58" y2="200.66" width="0.1524" layer="91"/>
+<junction x="195.58" y="200.66"/>
 </segment>
 </net>
 <net name="JTAG_TDO/SD_PRESENCE" class="0">
