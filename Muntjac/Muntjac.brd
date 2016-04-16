@@ -6,11 +6,11 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
 <layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
@@ -23,19 +23,19 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -46,20 +46,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -95,7 +95,7 @@
 <layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
 <layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="no"/>
-<layer number="118" name="Rect_Pads" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="4" fill="1" visible="no" active="yes"/>
 <layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="no"/>
 <layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
@@ -2632,101 +2632,79 @@ Your Eurocircuits Team
 <attribute name="PACKAGE_DESIGNATOR" value="RHM" x="3.9878" y="-12.1412" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="4.6736" y="14.605" size="1.27" layer="25" ratio="6" rot="SR90"/>
 </element>
-<element name="C231" library="CC11x" package="C0402_SMALL" value="" x="10.668" y="9.2964" smashed="yes" rot="R270">
+<element name="C231" library="CC11x" package="C0402_SMALL" value="1.8nF" x="10.668" y="9.2964" smashed="yes" rot="R270">
 <attribute name="NAME" x="-8.636" y="8.9662" size="0.8128" layer="25" rot="R270"/>
-<attribute name="VALUE" x="8.763" y="9.9314" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C221" library="CC11x" package="C0402_SMALL" value="" x="9.8298" y="7.8232" smashed="yes" rot="R270">
+<element name="C221" library="CC11x" package="C0402_SMALL" value="47nF" x="9.8298" y="7.8232" smashed="yes" rot="R270">
 <attribute name="NAME" x="-9.6012" y="7.112" size="0.8128" layer="25" rot="R270"/>
-<attribute name="VALUE" x="7.9248" y="8.4582" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C211" library="CC11x" package="C0402_SMALL" value="" x="9.017" y="7.9502" smashed="yes" rot="R270">
+<element name="C211" library="CC11x" package="C0402_SMALL" value="10nF" x="9.017" y="7.9502" smashed="yes" rot="R270">
 <attribute name="NAME" x="-10.5664" y="7.2644" size="0.8128" layer="25" rot="R270"/>
-<attribute name="VALUE" x="7.112" y="8.5852" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C251" library="CC11x" package="C0402_SMALL" value="" x="12.1412" y="10.6934" smashed="yes">
+<element name="C251" library="CC11x" package="C0402_SMALL" value="47nF" x="12.1412" y="10.6934" smashed="yes">
 <attribute name="NAME" x="-5.4102" y="10.414" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="11.5062" y="8.7884" size="1.27" layer="27"/>
 </element>
-<element name="C261" library="CC11x" package="C0402_SMALL" value="" x="12.4714" y="11.6078" smashed="yes">
+<element name="C261" library="CC11x" package="C0402_SMALL" value="47nF" x="12.4714" y="11.6078" smashed="yes">
 <attribute name="NAME" x="-4.8768" y="11.6078" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="11.8364" y="9.7028" size="1.27" layer="27"/>
 </element>
-<element name="C271" library="CC11x" package="C0402_SMALL" value="" x="12.4714" y="12.5222" smashed="yes">
+<element name="C271" library="CC11x" package="C0402_SMALL" value="47nF" x="12.4714" y="12.5222" smashed="yes">
 <attribute name="NAME" x="-4.8768" y="12.6492" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="11.8364" y="10.6172" size="1.27" layer="27"/>
 </element>
-<element name="C281" library="CC11x" package="C0402_SMALL" value="" x="13.1064" y="13.7922" smashed="yes">
+<element name="C281" library="CC11x" package="C0402_SMALL" value="47nF" x="13.1064" y="13.7922" smashed="yes">
 <attribute name="NAME" x="-4.1148" y="14.1478" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="12.4714" y="11.8872" size="1.27" layer="27"/>
 </element>
-<element name="C291" library="CC11x" package="C0402_SMALL" value="" x="15.7226" y="14.6812" smashed="yes">
+<element name="C291" library="CC11x" package="C0402_SMALL" value="47nF" x="15.7226" y="14.6812" smashed="yes">
 <attribute name="NAME" x="-0.4572" y="15.3162" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="15.0876" y="12.7762" size="1.27" layer="27"/>
 </element>
-<element name="C11" library="CC11x" package="C0402_SMALL" value="" x="10.16" y="17.6276" smashed="yes" rot="R90">
+<element name="C11" library="CC11x" package="C0402_SMALL" value="47nF" x="10.16" y="17.6276" smashed="yes" rot="R90">
 <attribute name="NAME" x="-8.9662" y="19.812" size="0.8128" layer="25" rot="R90"/>
-<attribute name="VALUE" x="12.065" y="16.9926" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C51" library="CC11x" package="C0402_SMALL" value="" x="7.5565" y="17.86255" smashed="yes" rot="R90">
+<element name="C51" library="CC11x" package="C0402_SMALL" value="47nF" x="7.5565" y="17.86255" smashed="yes" rot="R90">
 <attribute name="NAME" x="-14.0081" y="22.26945" size="0.8128" layer="25" rot="R270"/>
-<attribute name="VALUE" x="9.4615" y="17.22755" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C61" library="CC11x" package="C0402_SMALL" value="" x="5.77215" y="17.3736" smashed="yes" rot="R180">
+<element name="C61" library="CC11x" package="C0402_SMALL" value="220nF" x="5.77215" y="17.3736" smashed="yes" rot="R180">
 <attribute name="NAME" x="-16.04645" y="21.5646" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="6.40715" y="19.2786" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C311" library="CC11x" package="C0402_SMALL" value="" x="13.7922" y="18.6182" smashed="yes">
+<element name="C311" library="CC11x" package="C0402_SMALL" value="15pF" x="13.7922" y="18.6182" smashed="yes">
 <attribute name="NAME" x="-5.3594" y="20.574" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="13.1572" y="16.7132" size="1.27" layer="27"/>
 </element>
-<element name="C301" library="CC11x" package="C0402_SMALL" value="" x="15.4686" y="17.0942" smashed="yes" rot="R90">
+<element name="C301" library="CC11x" package="C0402_SMALL" value="15pF" x="15.4686" y="17.0942" smashed="yes" rot="R90">
 <attribute name="NAME" x="-2.794" y="19.6596" size="0.8128" layer="25" rot="R270"/>
-<attribute name="VALUE" x="17.3736" y="16.4592" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C302" library="CC11x" package="C0402_SMALL" value="" x="16.383" y="17.0942" smashed="yes" rot="R90">
+<element name="C302" library="CC11x" package="C0402_SMALL" value="DNP" x="16.383" y="17.0942" smashed="yes" rot="R90">
 <attribute name="NAME" x="-1.5748" y="19.7612" size="0.8128" layer="25" rot="R270"/>
-<attribute name="VALUE" x="18.288" y="16.4592" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="X1" library="crystal" package="FA-128" value="FA-128" x="13.7922" y="16.7132" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.6812" y="15.4686" size="1.016" layer="25" rot="R180"/>
 </element>
-<element name="C121" library="CC11x" package="C0402_SMALL" value="" x="2.7686" y="14.3764" smashed="yes" rot="R180">
+<element name="C121" library="CC11x" package="C0402_SMALL" value="47nF" x="2.7686" y="14.3764" smashed="yes" rot="R180">
 <attribute name="NAME" x="-17.9832" y="13.3604" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="3.4036" y="16.2814" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C131" library="CC11x" package="C0402_SMALL" value="" x="3.0734" y="12.9794" smashed="yes" rot="R180">
+<element name="C131" library="CC11x" package="C0402_SMALL" value="47nF" x="3.0734" y="12.9794" smashed="yes" rot="R180">
 <attribute name="NAME" x="-17.6022" y="12.0904" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="3.7084" y="14.8844" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C151" library="CC11x" package="C0402_SMALL" value="" x="3.048" y="11.2522" smashed="yes" rot="R180">
+<element name="C151" library="CC11x" package="C0402_SMALL" value="47nF" x="3.048" y="11.2522" smashed="yes" rot="R180">
 <attribute name="NAME" x="-17.6022" y="10.0076" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="3.683" y="13.1572" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R141" library="CC11x" package="C0402_SMALL" value="" x="3.1242" y="12.1158" smashed="yes">
+<element name="R141" library="CC11x" package="C0402_SMALL" value="56K" x="3.1242" y="12.1158" smashed="yes">
 <attribute name="NAME" x="-17.6022" y="11.049" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="2.4892" y="10.2108" size="1.27" layer="27"/>
 </element>
-<element name="R171" library="CC11x" package="C0402_SMALL" value="" x="3.4582" y="7.5992" smashed="yes" rot="R270">
+<element name="R171" library="CC11x" package="C0402_SMALL" value="10" x="3.4582" y="7.5992" smashed="yes" rot="R270">
 <attribute name="NAME" x="-15.4978" y="4.8214" size="0.8128" layer="25" rot="R90"/>
-<attribute name="VALUE" x="1.5532" y="8.2342" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="L171" library="CC11x" package="C0402_SMALL" value="" x="4.445" y="7.6454" smashed="yes" rot="R90">
+<element name="L171" library="CC11x" package="C0402_SMALL" value="10n" x="4.445" y="7.6454" smashed="yes" rot="R90">
 <attribute name="NAME" x="-14.224" y="4.826" size="0.8128" layer="25" rot="R90"/>
 </element>
-<element name="C173" library="CC11x" package="C0402_SMALL" value="" x="2.5184" y="7.65" smashed="yes" rot="R90">
+<element name="C173" library="CC11x" package="C0402_SMALL" value="33pF" x="2.5184" y="7.65" smashed="yes" rot="R90">
 <attribute name="NAME" x="-16.7602" y="4.8306" size="0.8128" layer="25" rot="R90"/>
-<attribute name="VALUE" x="4.4234" y="7.015" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C171" library="CC11x" package="C0402_SMALL" value="" x="3.0434" y="9.224" smashed="yes" rot="R180">
+<element name="C171" library="CC11x" package="C0402_SMALL" value="10nF" x="3.0434" y="9.224" smashed="yes" rot="R180">
 <attribute name="NAME" x="-19.7658" y="7.954" size="0.8128" layer="25" rot="R180"/>
-<attribute name="VALUE" x="3.6784" y="11.129" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C172" library="CC11x" package="C0402_SMALL" value="" x="3.0434" y="10.1384" smashed="yes" rot="R180">
+<element name="C172" library="CC11x" package="C0402_SMALL" value="100pF" x="3.0434" y="10.1384" smashed="yes" rot="R180">
 <attribute name="NAME" x="-22.8138" y="8.3096" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="3.6784" y="12.0434" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R12" library="CC11x" package="C0402_SMALL" value="" x="11.2776" y="17.5514" smashed="yes" rot="R270">
+<element name="R12" library="CC11x" package="C0402_SMALL" value="DNP" x="11.2776" y="17.5514" smashed="yes" rot="R270">
 <attribute name="NAME" x="-8.4836" y="21.9202" size="0.8128" layer="25" rot="R270"/>
 </element>
 <element name="ANT_868" library="CC11x" package="JOHNSON_142-0701-806" value="SMA" x="6.55955" y="0.3175" smashed="yes" rot="R180"/>
@@ -2750,7 +2728,6 @@ Your Eurocircuits Team
 </element>
 <element name="R7" library="rcl" package="R0402" value="DNP" x="8.8138" y="20.3454" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.398" y="21.717" size="1.016" layer="25" rot="R90"/>
-<attribute name="VALUE" x="4.4704" y="18.9992" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="U1" library="arm-cores" package="QFN56" value="CC2538" x="29.972" y="14.6304" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.1724" y="9.064" size="1.016" layer="25"/>
@@ -2984,7 +2961,6 @@ Your Eurocircuits Team
 </element>
 <element name="R17" library="rcl" package="R0402" value="DNP" x="18.9484" y="21.209" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.3388" y="20.1422" size="1.016" layer="25" rot="R90"/>
-<attribute name="VALUE" x="19.6342" y="24.0284" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="R16" library="rcl" package="R0402" value="DNP" x="18.9484" y="23.7236" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.3388" y="22.86" size="1.016" layer="25" rot="R90"/>
