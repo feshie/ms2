@@ -1,0 +1,121 @@
+Partlist
+
+Exported from Muntjac.sch at 20/04/2016 10:32:17
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value                          Device                         Package                    Library                                Sheet
+
+ANT      UFL                            UFL                            UFL-HIROSE                 CC11x                                  1
+ANT_868  SMA                            SMA                            JOHNSON_142-0701-806       CC11x                                  2
+C1       4.7uF                          C_EUC0603S                     C0603                      CC11x                                  3
+C2       1uF                            C_EUC0603S                     C0603                      CC11x                                  3
+C3       1uF                            C_EUC0603S                     C0603                      CC11x                                  3
+C4       0.1uF                          C_EUC0603S                     C0603                      CC11x                                  3
+C5       100nf                          C_EUC0603S                     C0603                      CC11x                                  2
+C6       100nf                          C_EUC0603S                     C0603                      CC11x                                  2
+C7       47p                            C-EUC0603                      C0603                      rcl                                    1
+C8       47p                            C-EUC0603                      C0603                      rcl                                    1
+C9       1uF                            C-EUC0603                      C0603                      rcl                                    1
+C10      1uF                            C-EUC0603                      C0603                      rcl                                    1
+C11      47nF                           C_EU0402S                      C0402_SMALL                CC11x                                  2
+C12      47p                            C-EUC0603                      C0603                      rcl                                    1
+C13      47p                            C-EUC0603                      C0603                      rcl                                    1
+C14      1uF                            C_EUC0603S                     C0603                      CC11x                                  5
+C15      1uF                            C_EUC0603S                     C0603                      CC11x                                  5
+C16      100nf                          C_EUC0603S                     C0603                      CC11x                                  5
+C17      100nf                          C_EUC0603S                     C0603                      CC11x                                  5
+C18      100nf                          C_EUC0603S                     C0603                      CC11x                                  5
+C19      100nf                          C_EUC0603S                     C0603                      CC11x                                  5
+C20      1uF                            C_EUC0603S                     C0603                      CC11x                                  4
+C21      22uF                           C_EUC0603S                     C0603                      CC11x                                  4
+C22      1uF                            C_EUC0603S                     C0603                      CC11x                                  5
+C23      100nF                          C_EUC0603S                     C0603                      CC11x                                  5
+C51      47nF                           C_EU0402S                      C0402_SMALL                CC11x                                  2
+C61      220nF                          C_EU0402S                      C0402_SMALL                CC11x                                  2
+C121     47nF                           C_EU0402S                      C0402_SMALL                CC11x                                  2
+C131     47nF                           C_EU0402S                      C0402_SMALL                CC11x                                  2
+C151     47nF                           C_EU0402S                      C0402_SMALL                CC11x                                  2
+C171     10nF                           C_EU0402S                      C0402_SMALL                CC11x                                  2
+C172     100pF                          C_EU0402S                      C0402_SMALL                CC11x                                  2
+C173     33pF                           C_EU0402S                      C0402_SMALL                CC11x                                  2
+C211     10nF                           C_EU0402S                      C0402_SMALL                CC11x                                  2
+C221     47nF                           C_EU0402S                      C0402_SMALL                CC11x                                  2
+C231     1.8nF                          C_EU0402S                      C0402_SMALL                CC11x                                  2
+C251     47nF                           C_EU0402S                      C0402_SMALL                CC11x                                  2
+C261     47nF                           C_EU0402S                      C0402_SMALL                CC11x                                  2
+C271     47nF                           C_EU0402S                      C0402_SMALL                CC11x                                  2
+C281     47nF                           C_EU0402S                      C0402_SMALL                CC11x                                  2
+C291     47nF                           C_EU0402S                      C0402_SMALL                CC11x                                  2
+C301     15pF                           C_EU0402S                      C0402_SMALL                CC11x                                  2
+C302     DNP                            C_EU0402S                      C0402_SMALL                CC11x                                  2
+C311     15pF                           C_EU0402S                      C0402_SMALL                CC11x                                  2
+D1       BAT54S                         BAT54S                         SOT23                      diode                                  5
+F1       0900PC15J0013                  0900PC15J0013                  0900PC15J0013              CC11x                                  2
+F2       BALUN-2.4G                     BALUN-2.4G                     2450BM15A0015              CC11x                                  1
+H1       Z1                             Z1                             Z1                         z1                                     6
+H4       FTS-105-01-L-D                 FTS-105-01-L-D                 SAMTEC_FTS-105-01-L-D      CC11x                                  6
+J1                                      47346-0001                     MOLEX_47346-0001           CC11x                                  3
+L1       BEAD                           L_US0603                       C0603                      CC11x                                  2
+L2       BEAD                           L_US0603                       C0603                      CC11x                                  5
+L3       BEAD                           L_US0603                       C0603                      CC11x                                  5
+L4       BEAD                           L_US0603                       C0603                      CC11x                                  2
+L5       BEAD                           L_US0603                       C0603                      CC11x                                  5
+L171     10n                            L_US0402S                      C0402_SMALL                CC11x                                  2
+LED                                     CLV1A-FKB-CJ1M1F1BB7R4S3       PLCC-4_3.2X2.8             CC11x                                  5
+LED1                                    LEDSML0603                     SML0603                    led                                    3
+LED2                                    LEDSML0603                     SML0603                    led                                    3
+LED_EN                                  PINHD-1X2                      1X02                       CC11x                                  5
+R1       DNP                            R-EU_R0402                     R0402                      rcl                                    2
+R2       DNP                            R-EU_R0402                     R0402                      rcl                                    2
+R3       DNP                            R-EU_R0402                     R0402                      rcl                                    2
+R4       DNP                            R-EU_R0402                     R0402                      rcl                                    2
+R5       DNP                            R-EU_R0402                     R0402                      rcl                                    2
+R6       DNP                            R-EU_R0402                     R0402                      rcl                                    2
+R7       DNP                            R-EU_R0402                     R0402                      rcl                                    2
+R8       56k                            R-EU_R0603                     R0603                      rcl                                    1
+R9       10k                            R-EU_R0603                     R0603                      rcl                                    3
+R10      100k                           R-EU_R0603                     R0603                      rcl                                    4
+R11      100K                           R-EU_R0603                     R0603                      rcl                                    2
+R12      DNP                            R_EU                           C0402_SMALL                CC11x                                  2
+R13      100K                           R-EU_R0603                     R0603                      rcl                                    2
+R14      100K                           R-EU_R0603                     R0603                      rcl                                    4
+R15      100K                           R-EU_R0603                     R0603                      rcl                                    4
+R16      DNP                            R-EU_R0402                     R0402                      rcl                                    4
+R17      DNP                            R-EU_R0402                     R0402                      rcl                                    4
+R18      100k                           R-EU_R0603                     R0603                      rcl                                    5
+R19      100k                           R-EU_R0603                     R0603                      rcl                                    5
+R20      220                            R-EU_R0603                     R0603                      rcl                                    5
+R21      220                            R-EU_R0603                     R0603                      rcl                                    5
+R22      220                            R-EU_R0603                     R0603                      rcl                                    5
+R23      4.7K                           R-EU_R0603                     R0603                      rcl                                    5
+R24      4.7K                           R-EU_R0603                     R0603                      rcl                                    5
+R25      4.7K                           R-EU_R0603                     R0603                      rcl                                    5
+R26      4.7k                           R-EU_R0603                     R0603                      rcl                                    3
+R27      4.7k                           R-EU_R0603                     R0603                      rcl                                    3
+R28      10k                            R-EU_R0603                     R0603                      rcl                                    1
+R29      10k                            R-EU_R0603                     R0603                      rcl                                    1
+R30      1K5                            R-EU_R0603                     R0603                      rcl                                    3
+R31      1K5                            R-EU_R0603                     R0603                      rcl                                    3
+R141     56K                            R_EU                           C0402_SMALL                CC11x                                  2
+R171     10                             R_EU                           C0402_SMALL                CC11x                                  2
+RST                                     KMR2X1G                        C&K-KMR-5MM                CC11x                                  5
+SD1      MICRO_SD-SPI-MOLEX_503182-0853 MICRO_SD-SPI-MOLEX_503182-0853 MICRO_SD-MOLEX_503182-0853 glacsweb                               4
+U1       CC2538                         CC2538                         QFN56                      arm-cores                              1
+U2       CC1120_RHM_32                  CC1120_RHM_32                  RHM32_3P7X3P7              CC11x                                  2
+U3       TPD2E001IDRLRQ1                TPD2E001IDRLRQ1                SOT50P160X60-5N            Texas Instruments_By_element14_Batch_1 3
+U4       CP2103                         CP2103                         QFN50P500X500X100-29N      CC11x                                  3
+U5       BSS138PS                       BSS138PS                       SOT65P210X110-6N           CC11x                                  5
+U6       BSS138PS                       BSS138PS                       SOT65P210X110-6N           CC11x                                  5
+U7       BSS138PS                       BSS138PS                       SOT65P210X110-6N           CC11x                                  3
+U8       M25P16VMN6P                    M25P16VMN6P                    SOIC8                      CC11x                                  4
+U9       DMG6602SVT                     DMG6602SVT                     TSOT26                     farnell-parts                          2
+U10      DMG6602SVT                     DMG6602SVT                     TSOT26                     farnell-parts                          4
+U11      SN74AVC4T774PW                 SN74AVC4T774PW                 SOP65P640X120-16N          CC11x                                  4
+U12      TMP102AIDRLT                   TMP102AIDRLT                   SOT50P160X60-6N            CC11x                                  5
+USR                                     KMR2X1G                        C&K-KMR-5MM                CC11x                                  5
+X1       FA-128                         FA-128                         FA-128                     crystal                                2
+X2       32MHz                          ABM8G-ABM8G                    XTAL-3.2X2.5               arm-cores                              1
+X3       32.768K                        ABS07                          XTAL-3.2X1.5               arm-cores                              1
